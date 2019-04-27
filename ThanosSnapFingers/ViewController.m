@@ -40,7 +40,7 @@
     } completion:^(BOOL finished) {
         [cell.labelmd removeFromSuperview];
         [cell.imagemd removeFromSuperview];
-//        timer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(nextOne) userInfo:nil repeats:YES];
+        timer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(nextOne) userInfo:nil repeats:YES];
 //        [[NSRunLoop mainRunLoop] addTimer:timer forMode:UITrackingRunLoopMode];
         i++;
 //        [self nextOne];
@@ -69,7 +69,7 @@
     }];
     
     i++;
-    if (i > 9) {
+    if (i > 3) {
         [timer invalidate];
         timer = nil;
     }
@@ -82,10 +82,10 @@
     NSMutableArray *resultArr = @[].mutableCopy;
     
     for (int i = 0; i < 10000; i++) {
-        NSInteger x = arc4random() % 20;
+        NSInteger x = arc4random() % 8;
         if (![resultArr containsObject:@(x)]) {
             [resultArr addObject:@(x)];
-            if (resultArr.count > 9) {
+            if (resultArr.count > 3) {
                 break;
             }
         }
@@ -157,7 +157,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return 20;
+    return 8;
     
 }
 
