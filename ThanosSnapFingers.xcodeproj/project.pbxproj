@@ -13,6 +13,10 @@
 		E9EE35A32273EDE1009F5F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EE35A22273EDE1009F5F47 /* Assets.xcassets */; };
 		E9EE35A62273EDE1009F5F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9EE35A42273EDE1009F5F47 /* LaunchScreen.storyboard */; };
 		E9EE35A92273EDE1009F5F47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EE35A82273EDE1009F5F47 /* main.m */; };
+		E9EE35B72273EE8C009F5F47 /* CellMightDisapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EE35B52273EE8C009F5F47 /* CellMightDisapper.m */; };
+		E9EE35B82273EE8C009F5F47 /* CellMightDisapper.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9EE35B62273EE8C009F5F47 /* CellMightDisapper.xib */; };
+		E9EE35BC22740750009F5F47 /* 灰.png in Resources */ = {isa = PBXBuildFile; fileRef = E9EE35BB22740750009F5F47 /* 灰.png */; };
+		E9EE35BE2274267C009F5F47 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9EE35BD2274267C009F5F47 /* images.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,11 @@
 		E9EE35A52273EDE1009F5F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9EE35A72273EDE1009F5F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9EE35A82273EDE1009F5F47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9EE35B42273EE8C009F5F47 /* CellMightDisapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellMightDisapper.h; sourceTree = "<group>"; };
+		E9EE35B52273EE8C009F5F47 /* CellMightDisapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellMightDisapper.m; sourceTree = "<group>"; };
+		E9EE35B62273EE8C009F5F47 /* CellMightDisapper.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellMightDisapper.xib; sourceTree = "<group>"; };
+		E9EE35BB22740750009F5F47 /* 灰.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "灰.png"; sourceTree = "<group>"; };
+		E9EE35BD2274267C009F5F47 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,11 @@
 				E9EE359A2273EDDF009F5F47 /* AppDelegate.m */,
 				E9EE359C2273EDDF009F5F47 /* ViewController.h */,
 				E9EE359D2273EDDF009F5F47 /* ViewController.m */,
+				E9EE35B42273EE8C009F5F47 /* CellMightDisapper.h */,
+				E9EE35B52273EE8C009F5F47 /* CellMightDisapper.m */,
+				E9EE35B62273EE8C009F5F47 /* CellMightDisapper.xib */,
+				E9EE35BB22740750009F5F47 /* 灰.png */,
+				E9EE35BD2274267C009F5F47 /* images.jpeg */,
 				E9EE359F2273EDDF009F5F47 /* Main.storyboard */,
 				E9EE35A22273EDE1009F5F47 /* Assets.xcassets */,
 				E9EE35A42273EDE1009F5F47 /* LaunchScreen.storyboard */,
@@ -128,9 +142,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9EE35BC22740750009F5F47 /* 灰.png in Resources */,
 				E9EE35A62273EDE1009F5F47 /* LaunchScreen.storyboard in Resources */,
 				E9EE35A32273EDE1009F5F47 /* Assets.xcassets in Resources */,
 				E9EE35A12273EDDF009F5F47 /* Main.storyboard in Resources */,
+				E9EE35B82273EE8C009F5F47 /* CellMightDisapper.xib in Resources */,
+				E9EE35BE2274267C009F5F47 /* images.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +161,7 @@
 				E9EE359E2273EDDF009F5F47 /* ViewController.m in Sources */,
 				E9EE35A92273EDE1009F5F47 /* main.m in Sources */,
 				E9EE359B2273EDDF009F5F47 /* AppDelegate.m in Sources */,
+				E9EE35B72273EE8C009F5F47 /* CellMightDisapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
